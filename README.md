@@ -27,6 +27,20 @@ for input:
 ( B ) 1234. hahaha
 ```
 
+Expected output:
+
+```
+1
+1234
+```
+
+Actual output:
+
+```
+1
+1
+```
+
 ### Analysis
 
 For the input, 4.9.3 runtime creates 2 LexerIndexedCustomAction objects without the '{}' action
