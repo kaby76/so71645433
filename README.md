@@ -45,4 +45,5 @@ Actual output:
 
 In the case without the empty action,
 the predicate gets information from the first token of that type found,
-not the information per specific token.
+not the information per specific token. You can see this quite apparently
+with examples/test5.in.
