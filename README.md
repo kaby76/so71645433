@@ -47,3 +47,7 @@ In the case without the empty action,
 the predicate gets information from the first token of that type found,
 not the information per specific token. You can see this quite apparently
 with examples/test5.in.
+
+I debugged the code and I have a possible solution to the Antlr4 runtime,
+[here](https://github.com/antlr/antlr4/issues/3606#issuecomment-1082198235).
+With the change, the empty action is not required.
